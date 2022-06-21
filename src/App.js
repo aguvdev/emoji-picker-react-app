@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import EmojiPickerInput from "./components/emojiPicker/emojiPickerInput";
 
 function App() {
-  return (
-    <div>
-      Hola
-    </div>
-  );
+  return <EmojiPickerInput />;
 }
 
 export default App;
